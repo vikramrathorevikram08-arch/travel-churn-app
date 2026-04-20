@@ -46,7 +46,13 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 BASE_DIR = Path(__file__).resolve().parent
-model = joblib.load(BASE_DIR / "model.pkl")
+model_path = BASE_DIR / "model.pkl"
+
+if not model_path.exists():
+    st.error(f"Model file not found: {model_path.name}")
+    st.stop()
+
+model = joblib.load(model_path)
 
 st.markdown("""
 <div class="hero">
