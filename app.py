@@ -4,12 +4,6 @@ import joblib
 from sklearn.preprocessing import LabelEncoder
 from pathlib import Path
 
-st.set_page_conimport streamlit as st
-import pandas as pd
-import joblib
-from sklearn.preprocessing import LabelEncoder
-from pathlib import Path
-
 st.set_page_config(
     page_title="Travel Churn Predictor",
     page_icon="✈️",
