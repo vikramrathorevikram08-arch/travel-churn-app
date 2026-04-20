@@ -559,7 +559,7 @@ st.markdown("""
     <p style="margin-top: 1rem; font-size: 0.85em; opacity: 0.7;">© 2024 Travel Churn Predictor • Production Ready</p>
 </div>
 """, unsafe_allow_html=True)
-kya ye dal sakta hu app.py wali file mefig(
+ mefig(
     page_title="Travel Churn Predictor",
     page_icon="✈️",
     layout="wide",
