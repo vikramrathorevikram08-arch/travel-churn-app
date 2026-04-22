@@ -377,7 +377,7 @@ with st.sidebar:
     st.markdown("Enter customer details below:")
     
     age = st.slider(
-        " Age",
+        "Age",
         min_value=18,
         max_value=75,
         value=31,
