@@ -377,7 +377,7 @@ with st.sidebar:
     st.markdown("Enter customer details below:")
     
     age = st.slider(
-        "🎂 Age",
+        " Age",
         min_value=18,
         max_value=75,
         value=31,
@@ -386,19 +386,19 @@ with st.sidebar:
     )
     
     frequent = st.selectbox(
-        "✈️ Frequent Flyer",
+        "Frequent Flyer",
         ["No", "Yes"],
         help="Is this customer a frequent flyer?"
     )
     
     income = st.selectbox(
-        "💰 Income Class",
+        "Income Class",
         ["Low Income", "Middle Income"],
         help="Customer's annual income classification"
     )
     
     services = st.slider(
-        "🎁 Services Opted",
+        "Services Opted",
         min_value=1,
         max_value=6,
         value=2,
@@ -407,18 +407,18 @@ with st.sidebar:
     )
     
     social = st.selectbox(
-        "📱 Social Media Sync",
+        "Social Media Sync",
         ["No", "Yes"],
         help="Is their account synced with social media?"
     )
     
     hotel = st.selectbox(
-        "🏨 Booked Hotel",
+        "Booked Hotel",
         ["No", "Yes"],
         help="Has the customer booked a hotel?"
     )
     
-    st.caption("✨ All fields are required. Click 'Predict Churn' to get results.")
+    st.caption("All fields are required. Click 'Predict Churn' to get results.")
 
 # ============================================================================
 # MAIN CONTENT - CUSTOMER PROFILE & PREDICTION
