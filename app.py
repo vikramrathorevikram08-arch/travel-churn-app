@@ -123,21 +123,8 @@ st.markdown("""
         border-color: #0066ff;
     }
     
-    /* HEADERS */
-   /* ================= HEADINGS FIX ================= */
-
-h2 {
-    color: #0a1428 !important;   /* dark for light background */
-}
-
-h3 {
-    color: #0a1428 !important;
-}
-
-/* If dark background appears */
-.stMarkdown h2,
-.stMarkdown h3 {
-    color: #0a1428 !important;
+    /* HEADERS */ h2 { color: #0a1428; font-size: 1.6em; font-weight: 700; margin-top: 1.5rem !important; margin-bottom: 1.2rem !important; letter-spacing: -0.01em; }
+    h3 { color: #1e3a8a; font-size: 1.3em; font-weight: 700; margin-top: 1rem !important; margin-bottom: 0.8rem !important; };
 }
     
     /* FORM ELEMENTS */
