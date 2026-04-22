@@ -298,6 +298,23 @@ st.markdown("""
         font-size: 0.9em !important;
         font-weight: 500 !important;
     }
+    /* FIX LABEL VISIBILITY */
+label, .stMarkdown, .stText, .stCaption {
+    color: #0a1428 !important;
+    font-weight: 500;
+}
+
+/* Sidebar text fix */
+[data-testid="stSidebar"] label,
+[data-testid="stSidebar"] .stMarkdown {
+    color: #0a1428 !important;
+}
+
+/* Slider value text (red number) */
+.stSlider span {
+    color: #ef4444 !important;
+    font-weight: 600;
+}
 </style>
 """, unsafe_allow_html=True)
 
